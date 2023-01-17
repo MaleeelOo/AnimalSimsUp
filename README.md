@@ -1,0 +1,2 @@
+# AnimalSimsUp
+Tamagotchi like game

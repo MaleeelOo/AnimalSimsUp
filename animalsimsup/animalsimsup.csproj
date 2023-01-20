@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="boomnes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="boomnes.png" />
+  </ItemGroup>
+
 </Project>

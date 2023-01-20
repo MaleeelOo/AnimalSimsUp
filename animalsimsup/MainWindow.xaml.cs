@@ -20,14 +20,43 @@ namespace animalsimsup
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Game game;
         public MainWindow()
         {
+            game = new Game();
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Update_Time(object sender,  RoutedEventArgs e)
         {
-
+            game.update();
+            K_Liebe.Value = game.get_current_animal_liebe();
+            K_Essen.Value = game.get_current_animal_essen();
+            K_Sauberkeit.Value = game.get_current_animal_sauberkeit();
+            // K_Schlaf.Value = game.k.get_schlaf();
         }
+
+        private void Nahrung(object sender, RoutedEventArgs e)
+        {
+            game.nahrung();
+        }
+
+        private void Liebe(object sender, RoutedEventArgs e)
+        {
+            game.liebe();
+        }
+
+        private void Putzen(object sender, RoutedEventArgs e)
+        {
+            game.putzen();
+        }
+
+        private void Verkaufen(object sender, RoutedEventArgs e)
+        {
+            game.verkaufen();
+        }
+
+
+
     }
 }

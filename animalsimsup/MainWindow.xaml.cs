@@ -56,6 +56,11 @@ namespace animalsimsup
             game.verkaufen();
         }
 
+        private void Kaufen(object sender, RoutedEventArgs e)
+        {
+            game.kaufen();
+        }
+
 
 
     }

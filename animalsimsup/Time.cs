@@ -6,7 +6,10 @@ namespace animalsimsup
 {
     class Time
     {
+        // Atribute
         private DateTime lastTime;
+
+        // Methoden
         public Time()
         {
             lastTime = DateTime.Now;

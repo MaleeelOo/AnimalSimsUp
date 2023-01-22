@@ -4,21 +4,6 @@ using System.Text;
 
 namespace animalsimsup
 {
-
-    class A
-    {
-
-    }
-
-    class B
-    {
-        public A ichbineinobjectderklassea;
-
-    }
-
-    // B <#>-----> A
-
-
     class Game
     {
         private Time t;

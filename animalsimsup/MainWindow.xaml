@@ -21,8 +21,15 @@
         </StackPanel>
 
         <StackPanel x:Name="Container" Grid.Row="1" Orientation="Horizontal" Grid.RowSpan="2">
+            <StackPanel.Background>
+                <ImageBrush/>
+            </StackPanel.Background>
             <StackPanel x:Name="Katze" Orientation="Vertical" Width="150">
-                <Button Content="Katze"/>
+                <Button Content="Katze" Height="100" Width="150">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/images/katze.png"/>
+                    </Button.Background>
+                </Button>
                 <StackPanel x:Name="K_ProgressBars_Liebe" Orientation="Horizontal">
                     <Label Content="Liebe"/>
                     <ProgressBar x:Name="K_Liebe" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
@@ -45,9 +52,32 @@
 
             </StackPanel>
 
-            <StackPanel x:Name="Fisch" Orientation="Vertical" Width="100">
-                <Button Content="Fisch"/>
-                <ProgressBar x:Name="F_Liebe" Height="10" Margin="5"></ProgressBar>
+            <StackPanel x:Name="Fisch" Orientation="Vertical" Width="150">
+                <Button Content="Fisch" Height="100" Width="150">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/images/fish.png"/>
+                    </Button.Background>
+                </Button>
+                <StackPanel x:Name="F_ProgressBars_Liebe" Orientation="Horizontal">
+                    <Label Content="Liebe"/>
+                    <ProgressBar x:Name="F_Liebe" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                </StackPanel>
+
+                <StackPanel x:Name="F_ProgressBars_Essen" Orientation="Horizontal">
+                    <Label Content="Essen"/>
+                    <ProgressBar x:Name="F_Essen" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                </StackPanel>
+
+                <StackPanel x:Name="F_ProgressBars_Schlaf" Orientation="Horizontal">
+                    <Label Content="Schlaf"/>
+                    <ProgressBar x:Name="F_Schlaf" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                </StackPanel>
+
+                <StackPanel x:Name="F_ProgressBars_Sauberkeit" Orientation="Horizontal">
+                    <Label Content="Sauberkeit"/>
+                    <ProgressBar x:Name="F_Sauberkeit" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                </StackPanel>
+
             </StackPanel>
         </StackPanel>
 

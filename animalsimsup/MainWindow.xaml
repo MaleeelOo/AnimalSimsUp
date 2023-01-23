@@ -23,7 +23,7 @@
         <StackPanel x:Name="Container" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Grid.RowSpan="2">
 
             <StackPanel x:Name="Katze" Orientation="Vertical" Width="150" Margin="10" HorizontalAlignment="Right" >
-                <Button x:Name="KatzeButton" Content="Katze" Height="100" Width="150" Click="KatzeButton_Click">
+                <Button x:Name="KatzeButton" Height="100" Width="150" Click="KatzeButton_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/katze.png"/>
                     </Button.Background>
@@ -51,7 +51,7 @@
             </StackPanel>
 
             <StackPanel x:Name="Fisch" Orientation="Vertical" Width="150" Margin="10">
-            <Button x:Name="FischButton" Content="Fisch" Height="100" Width="150" Click="FischButton_Click">
+            <Button x:Name="FischButton" Height="100" Width="150" Click="FischButton_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/fish.png"/>
                     </Button.Background>

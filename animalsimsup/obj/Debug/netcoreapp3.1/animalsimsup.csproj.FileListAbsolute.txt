@@ -38,3 +38,23 @@ C:\Users\Marten\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\animalsimsup\animalsimsup\
 C:\Users\Marten\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\animalsimsup\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.dll
 C:\Users\Marten\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\animalsimsup\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.pdb
 C:\Users\Marten\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\animalsimsup\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.genruntimeconfig.cache
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.csproj.AssemblyReference.cache
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup_MarkupCompile.cache
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup_MarkupCompile.lref
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.dll
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.pdb
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.exe
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.deps.json
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.runtimeconfig.json
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.runtimeconfig.dev.json
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.dll
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\bin\Debug\netcoreapp3.1\animalsimsup.pdb
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.g.resources
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.AssemblyInfoInputs.cache
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.AssemblyInfo.cs
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.csproj.CoreCompileInputs.cache
+C:\Users\marte\source\repos\AnimalSimsUp\animalsimsup\obj\Debug\netcoreapp3.1\animalsimsup.genruntimeconfig.cache

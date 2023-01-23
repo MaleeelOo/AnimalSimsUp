@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:animalsimsup"
         mc:Ignorable="d"
-        Title="Simsup" Height="450" Width="800">
+        Title="Simsup" Height="450" Width="800" Background="DarkGreen">
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="110.465"/>
@@ -15,77 +16,75 @@
         </Grid.RowDefinitions>
 
 
-        <StackPanel x:Name="Head" Grid.Row="0" Orientation="Horizontal">
-            <Button Content="Time" Margin="10" Click="Update_Time" />
-            <Button Content="Kaufen" Margin="10" />
+        <StackPanel x:Name="Head" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Kaufen" Margin="10"/>
         </StackPanel>
 
-        <StackPanel x:Name="Container" Grid.Row="1" Orientation="Horizontal" Grid.RowSpan="2">
-            <StackPanel.Background>
-                <ImageBrush/>
-            </StackPanel.Background>
-            <StackPanel x:Name="Katze" Orientation="Vertical" Width="150">
-                <Button Content="Katze" Height="100" Width="150">
+        <StackPanel x:Name="Container" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Grid.RowSpan="2">
+
+            <StackPanel x:Name="Katze" Orientation="Vertical" Width="150" Margin="10" HorizontalAlignment="Right" >
+                <Button x:Name="KatzeButton" Content="Katze" Height="100" Width="150" Click="KatzeButton_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/katze.png"/>
                     </Button.Background>
                 </Button>
-                <StackPanel x:Name="K_ProgressBars_Liebe" Orientation="Horizontal">
-                    <Label Content="Liebe"/>
-                    <ProgressBar x:Name="K_Liebe" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Katze_ProgressBars_Liebe" Orientation="Horizontal">
+                    <Label Content="Liebe" Width="75"/>
+                    <ProgressBar x:Name="Katze_Liebe" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Background="White" Foreground="#FF060EB0"></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="K_ProgressBars_Essen" Orientation="Horizontal">
-                    <Label Content="Essen"/>
-                    <ProgressBar x:Name="K_Essen" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Katze_ProgressBars_Essen" Orientation="Horizontal">
+                    <Label Content="Essen" Width="75" />
+                    <ProgressBar x:Name="Katze_Essen" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="K_ProgressBars_Schlaf" Orientation="Horizontal">
-                    <Label Content="Schlaf"/>
-                    <ProgressBar x:Name="K_Schlaf" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Katze_ProgressBars_Schlaf" Orientation="Horizontal">
+                    <Label Content="Schlaf" Width="75" />
+                    <ProgressBar x:Name="Katze_Schlaf" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="K_ProgressBars_Sauberkeit" Orientation="Horizontal">
-                    <Label Content="Sauberkeit"/>
-                    <ProgressBar x:Name="K_Sauberkeit" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Katze_ProgressBars_Sauberkeit" Orientation="Horizontal">
+                    <Label Content="Sauberkeit" Width="75" />
+                    <ProgressBar x:Name="Katze_Sauberkeit" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
             </StackPanel>
 
-            <StackPanel x:Name="Fisch" Orientation="Vertical" Width="150">
-                <Button Content="Fisch" Height="100" Width="150">
+            <StackPanel x:Name="Fisch" Orientation="Vertical" Width="150" Margin="10">
+            <Button x:Name="FischButton" Content="Fisch" Height="100" Width="150" Click="FischButton_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/fish.png"/>
                     </Button.Background>
                 </Button>
-                <StackPanel x:Name="F_ProgressBars_Liebe" Orientation="Horizontal">
-                    <Label Content="Liebe"/>
-                    <ProgressBar x:Name="F_Liebe" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Fisch_ProgressBars_Liebe" Orientation="Horizontal">
+                    <Label Content="Liebe" Width="75" />
+                    <ProgressBar x:Name="Fisch_Liebe" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="F_ProgressBars_Essen" Orientation="Horizontal">
-                    <Label Content="Essen"/>
-                    <ProgressBar x:Name="F_Essen" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Fisch_ProgressBars_Essen" Orientation="Horizontal">
+                    <Label Content="Essen" Width="75" />
+                    <ProgressBar x:Name="Fisch_Essen" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="F_ProgressBars_Schlaf" Orientation="Horizontal">
-                    <Label Content="Schlaf"/>
-                    <ProgressBar x:Name="F_Schlaf" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Fisch_ProgressBars_Schlaf" Orientation="Horizontal">
+                    <Label Content="Schlaf" Width="75" />
+                    <ProgressBar x:Name="Fisch_Schlaf" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
-                <StackPanel x:Name="F_ProgressBars_Sauberkeit" Orientation="Horizontal">
-                    <Label Content="Sauberkeit"/>
-                    <ProgressBar x:Name="F_Sauberkeit" Width="50" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" ></ProgressBar>
+                <StackPanel x:Name="Fisch_ProgressBars_Sauberkeit" Orientation="Horizontal">
+                    <Label Content="Sauberkeit" Width="75" />
+                    <ProgressBar x:Name="Fisch_Sauberkeit" Width="60" Height="10" Margin="5" Value="100" Minimum="0" Maximum="100" Foreground="#FF060EB0" ></ProgressBar>
                 </StackPanel>
 
             </StackPanel>
         </StackPanel>
 
-        <StackPanel x:Name="footer" Grid.Row="3"  Orientation="Horizontal" >
-            <Button Content="Nahrung" Margin="10" Click="Nahrung" />
-            <Button Content="Liebe" Margin="10" Click="Liebe"  />
-            <Button Content="Putzen" Margin="10" Click="Putzen"  />
-            <Button Content="Verkaufen" Margin="10" Click="Verkaufen" />
+        <StackPanel x:Name="footer" Grid.Row="3"  Orientation="Horizontal" HorizontalAlignment="Center" >
+            <Button Content="Nahrung" Width="100" Margin="10" Click="Nahrung" />
+            <Button Content="Liebe" Width="100" Margin="10" Click="Liebe"  />
+            <Button Content="Putzen" Width="100" Margin="10" Click="Putzen"  />
+            <Button Content="Verkaufen" Width="100" Margin="10" Click="Verkaufen" />
         </StackPanel>
+        
     </Grid>
 </Window>

@@ -21,9 +21,11 @@ namespace animalsimsup
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Atribute
         private Game game;
-
         public static MainWindow mainwindow;
+
+        // Methoden
         public MainWindow()
         {
             game = new Game();
@@ -33,26 +35,13 @@ namespace animalsimsup
             DispatcherTimer gametimer = new DispatcherTimer();
 
             gametimer.Interval = TimeSpan.FromSeconds(1);
-            gametimer.Tick += timetick;
+            gametimer.Tick += update;
             gametimer.Start();
         }
 
-        private void timetick(object sender, EventArgs e)
-        {
-            foreach (var item in Game.animals)
-            {
-                item.timer();
-            }
-            
-        }
-
-        private void Update_Time(object sender,  RoutedEventArgs e)
+        private void update(object sender, EventArgs e)
         {
             game.update();
-            K_Liebe.Value = game.get_current_animal_liebe();
-            K_Essen.Value = game.get_current_animal_essen();
-            K_Sauberkeit.Value = game.get_current_animal_sauberkeit();
-            // K_Schlaf.Value = game.k.get_schlaf();
         }
 
         private void Nahrung(object sender, RoutedEventArgs e)
@@ -80,7 +69,14 @@ namespace animalsimsup
             game.kaufen();
         }
 
+        private void KatzeButton_Click(object sender, RoutedEventArgs e)
+        {
+            game.set_current_animal(0);
+        }
 
-
+        private void FischButton_Click(object sender, RoutedEventArgs e)
+        {
+            game.set_current_animal(1);
+        }
     }
 }

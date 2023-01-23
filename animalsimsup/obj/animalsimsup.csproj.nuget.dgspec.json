@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marte\\OneDrive\\Schule\\sOFTWARE 13\\HIT13 NEU\\animalsimsup\\animalsimsup\\animalsimsup.csproj": {}
+    "C:\\Users\\marte\\source\\repos\\AnimalSimsUp\\animalsimsup\\animalsimsup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marte\\OneDrive\\Schule\\sOFTWARE 13\\HIT13 NEU\\animalsimsup\\animalsimsup\\animalsimsup.csproj": {
+    "C:\\Users\\marte\\source\\repos\\AnimalSimsUp\\animalsimsup\\animalsimsup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marte\\OneDrive\\Schule\\sOFTWARE 13\\HIT13 NEU\\animalsimsup\\animalsimsup\\animalsimsup.csproj",
+        "projectUniqueName": "C:\\Users\\marte\\source\\repos\\AnimalSimsUp\\animalsimsup\\animalsimsup.csproj",
         "projectName": "animalsimsup",
-        "projectPath": "C:\\Users\\marte\\OneDrive\\Schule\\sOFTWARE 13\\HIT13 NEU\\animalsimsup\\animalsimsup\\animalsimsup.csproj",
+        "projectPath": "C:\\Users\\marte\\source\\repos\\AnimalSimsUp\\animalsimsup\\animalsimsup.csproj",
         "packagesPath": "C:\\Users\\marte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marte\\OneDrive\\Schule\\sOFTWARE 13\\HIT13 NEU\\animalsimsup\\animalsimsup\\obj\\",
+        "outputPath": "C:\\Users\\marte\\source\\repos\\AnimalSimsUp\\animalsimsup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

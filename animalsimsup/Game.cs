@@ -9,7 +9,8 @@ namespace animalsimsup
         private Time t;
         private double elapsed_time; 
         private int current_animal;
-        private List<Animal> animals;
+        public static List<Animal> animals;
+        public static Game game;
 
         public Game()
         {
@@ -18,6 +19,8 @@ namespace animalsimsup
             animals.Add(new Katze());
             elapsed_time = 0.0;
             current_animal = 0;
+
+            game = this;
         }
 
         public void update()

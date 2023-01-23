@@ -27,7 +27,7 @@
             <StackPanel x:Name="Katze" Orientation="Vertical" Width="150">
                 <Button Content="Katze" Height="100" Width="150">
                     <Button.Background>
-                        <ImageBrush ImageSource="/images/katze.png"/>
+                        <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/katze.png"/>
                     </Button.Background>
                 </Button>
                 <StackPanel x:Name="K_ProgressBars_Liebe" Orientation="Horizontal">
@@ -55,7 +55,7 @@
             <StackPanel x:Name="Fisch" Orientation="Vertical" Width="150">
                 <Button Content="Fisch" Height="100" Width="150">
                     <Button.Background>
-                        <ImageBrush ImageSource="/images/fish.png"/>
+                        <ImageBrush ImageSource="C:\Users\marte\OneDrive\Schule\sOFTWARE 13\HIT13 NEU\AnimalSimsUp\animalsimsup\images/fish.png"/>
                     </Button.Background>
                 </Button>
                 <StackPanel x:Name="F_ProgressBars_Liebe" Orientation="Horizontal">

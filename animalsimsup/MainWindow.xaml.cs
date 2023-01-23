@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace animalsimsup
 {
@@ -21,10 +22,28 @@ namespace animalsimsup
     public partial class MainWindow : Window
     {
         private Game game;
+
+        public static MainWindow mainwindow;
         public MainWindow()
         {
             game = new Game();
             InitializeComponent();
+
+            mainwindow = this;
+            DispatcherTimer gametimer = new DispatcherTimer();
+
+            gametimer.Interval = TimeSpan.FromSeconds(1);
+            gametimer.Tick += timetick;
+            gametimer.Start();
+        }
+
+        private void timetick(object sender, EventArgs e)
+        {
+            foreach (var item in Game.animals)
+            {
+                item.timer();
+            }
+            
         }
 
         private void Update_Time(object sender,  RoutedEventArgs e)
